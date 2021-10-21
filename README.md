@@ -26,5 +26,16 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 * 🗒️ In the meantime, `Git` was introduced with a powerful merging model, and as a  distributed version control, not like `VSS / SVN`  which working as a client/server system, so no need to be connected to a server.
 
 
+#### 📝 Why is version control important ?
+ 
+> It’s so important to keep everything in source control for delivery process, and a single source of truth.
 
-  
+
+- Keep tracking of changes
+- Helps team collaborate 
+- Working on versioning and history 
+- Manage traceability , who/when do these changes
+
+
+
+
