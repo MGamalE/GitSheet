@@ -1,5 +1,5 @@
 # GitSheet
-This repo demonstrates the playing journey with **Git** commands  :rocket:
+This repo demonstrates the playing journey with  **`Git`** commands  :rocket:
 
 
 # Getting Started 
@@ -23,7 +23,7 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 
 * 🗒️ With `SVN` and `VSS`, Microsoft went ahead with a new version control, `TFS (Team Foundation Server)`, which enabled to work with `Checking out file system as  VSS`, or `Branching model as SVN`.
 
-* 🗒️ In the meantime, `Git` as introduced with a powerful merging model, and as a  distributed version control, not like `VSS / SVN`  which working as a client/server system, so no need to be connected to a server.
+* 🗒️ In the meantime, `Git` was introduced with a powerful merging model, and as a  distributed version control, not like `VSS / SVN`  which working as a client/server system, so no need to be connected to a server.
 
 
 
