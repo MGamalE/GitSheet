@@ -37,7 +37,7 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 - Manage traceability , who/when do these changes
 
 
-#### Types of changes on Git
+#### :file_folder: Types of changes on Git
 
 - Add  file
 - Delete file
@@ -45,13 +45,13 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 - Rename file
 
 
-#### When you get a conflict ?
+#### :construction: When you get a conflict ?
 
 * When multiple users trying to edit the same line in a file, as shown below 
 
-- User1 trying to add “½ tbsp cilantro”, and User2 trying to add “2 tbsp cilantro” in the same line
-- Or when User_1 delete a file, User_2 trying to edit/modify the same file
-- So, you have to keep your files updated with latest changes from remote `GIT SERVER`
+			- User1 trying to add “½ tbsp cilantro”, and User2 trying to add “2 tbsp cilantro” in the same line
+			- Or when User_1 delete a file, User_2 trying to edit/modify the same file
+			- So, you have to keep your files updated with latest changes from remote `GIT SERVER`
 
-<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/conflict.png" width="300" height="300">
+<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/conflict.png" width="500" height="350">
 
