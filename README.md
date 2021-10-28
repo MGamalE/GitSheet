@@ -58,14 +58,14 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 
 #### :file_folder: Git States
 
-Git thinks of its data more like a set of snapshots of a miniature filesystem. Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.** Git thinks about its data more like a stream of snapshots. **
+Git thinks of its data more like a set of snapshots of a miniature filesystem. Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.**Git thinks about its data more like a stream of snapshots.**
 
 
 Everything in Git is check-summed before it is stored and is then referred to by that checksum. This means it’s impossible to change the contents of any file or directory without Git knowing about it.Git stores everything
 in its database not by filename but by the hash value of its contents.
 
 Now, pay attention. This is the main thing to remember about Git if you want the rest of your learning process to go
-smoothly. ** `Git has three main states that your files can reside in: committed, modified, and staged.` **
+smoothly. **`Git has three main states that your files can reside in: committed, modified, and staged.`**
 
 >  Committed means that the data is safely stored in your local database.
 
@@ -75,5 +75,20 @@ smoothly. ** `Git has three main states that your files can reside in: committed
 	
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/git-states.png" width="500" height="500">	
 
+* Working Directory
 
+	> It is your current local directory that you are working on. It's a signle checkout of one version of the project
+	 
+* Staging Area
 
+	> It is a file, generally in your `Git Directory`, stores information about what will go on your next commit, It's 
+	someetimes referred to as the `Index`
+
+* Git Directory
+	> It is where git stores the metadata and object database of your project.
+	
+* Let's go on a basic Git workflow :
+	1. You modify files in your working directory
+	2. You add a snapshot for these files in the satging area
+	3. You do a commit, that will take these files and snapshot then store them in the git directory 
+		 
