@@ -56,7 +56,7 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/conflict.png" width="500" height="350">
 
 
-#### Git States
+#### :file_folder: Git States
 
 Git thinks of its data more like a set of snapshots of a miniature filesystem. Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.** Git thinks about its data more like a stream of snapshots **.
 
