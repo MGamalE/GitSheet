@@ -94,8 +94,8 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 
 
 	
-#### :note: Git Basics Overview 
+#### :spiral_notebook: Git Basics Overview 
 
-- Commit :
+- Commit 
 > It’s a group of changes and it has only the changes, each commit points to parent commit(s).
 		 
