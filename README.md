@@ -91,4 +91,11 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	1. You modify files in your working directory
 	2. You add a snapshot for these files in the satging area
 	3. You do a commit, that will take these files and snapshot then store them in the git directory 
+
+
+	
+#### :note: Git Basics Overview 
+
+- Commit :
+> It’s a group of changes and it has only the changes, each commit points to parent commit(s).
 		 
