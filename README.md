@@ -113,3 +113,15 @@ smoothly. **`Git has three main states that your files can reside in: committed,
  > head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for branch.
  
  > HEAD (CAPITAL LETTERS): is an active / current head, points to commit you are working on.
+ 
+- **Merge**
+
+The merge have some types, so let’s represent with these visualizations:
+
+
+  	- Non Fast Forward (have two parents)
+		> In case you have new commits added after the last isolation feature branch, in this case you create a new commit representing the two branches, and the HEAD (active/current head) move to refer to this new commit.
+
+ <p align="center">
+<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/nonff.png" width="250" height="250">	
+</p>
