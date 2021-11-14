@@ -102,5 +102,7 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 - Branch
   > It’s the duplications of all commits as an object, the branch isolate the new commits while keeping pointing to parent      commit(s) before the isolation
 
+<p align="center">
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/branch.png" width="250" height="250">	
-		 
+</p>		
+ 
