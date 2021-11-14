@@ -97,5 +97,10 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 #### :spiral_notebook: Git Basics Overview 
 
 - Commit 
-> It’s a group of changes and it has only the changes, each commit points to parent commit(s).
+  > It’s a group of changes and it has only the changes, each commit points to parent commit(s).
+
+- Branch
+  > It’s the duplications of all commits as an object, the branch isolate the new commits while keeping pointing to parent      commit(s) before the isolation
+
+<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/branch.png" width="500" height="500">	
 		 
