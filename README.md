@@ -110,5 +110,6 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 
  There are two types of references for commit/branch:
  
- 	* head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for that branch.
- 	* HEAD (CAPITAL LETTERS): is an active / current head
+ > head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for that branch.
+ 
+ > HEAD (CAPITAL LETTERS): is an active / current head
