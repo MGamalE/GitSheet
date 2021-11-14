@@ -125,3 +125,29 @@ The merge have some types, so let’s represent with these visualizations:
  <p align="center">
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/nonff.png" width="250" height="250">	
 </p>
+
+
+- Fast Forward (have one parent)
+	> In case you have not any new commits added after the last isolation feature branch, in this case you make the HEAD (active/current head) move to refer to the last commit in the isolation feature branch.
+
+ <p align="center">
+<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/ff.png" width="250" height="250">	
+</p>
+
+
+- Rebase
+	> You will copy/rewrite all the new commits of the feature branch and merge them into the existing branch.
+
+
+ <p align="center">
+<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/rebase.png" width="250" height="250">	
+</p>
+
+
+- Squash
+	> You can represent it as combining all the new added commits in the isolation feature branch into one single commit, then merge this commit to the existing branch.
+
+
+ <p align="center">
+<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/squash.png" width="250" height="250">	
+</p>
