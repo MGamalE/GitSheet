@@ -96,13 +96,18 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	
 #### :memo: Git Basics Overview 
 
-- Commit 
+- **Commit** 
   > It’s a group of changes and it has only the changes, each commit points to parent commit(s).
 
-- Branch
+- **Branch**
   > It’s the duplications of all commits as an object, the branch isolate the new commits while keeping pointing to parent      commit(s) before the isolation
 
 <p align="center">
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/branch.png" width="250" height="250">	
 </p>		
+
+- **head and HEAD**
+ There are two types of references for commit/branch:
  
+ * head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for that branch.
+ * HEAD (CAPITAL LETTERS): is an active / current head
