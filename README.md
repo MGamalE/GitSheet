@@ -75,29 +75,24 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/git-states.png" width="500" height="500">	
 
-* Working Directory
+* **Working Directory**
 
 	> It is your current local directory that you are working on. It's a signle checkout of one version of the project
 	
 	There are types of states in working directory 
 	
- 	> Tracked files : are files that were in the last snapshot; they can be unmodified, modified, or staged. 
+ 	> **Tracked files** : are files that were in the last snapshot; they can be unmodified, modified, or staged. 
 	
-  	> Untracked files : are everything else—any files in your working directory that were not in your last snapshot and are not in your staging area.
+  	> **Untracked files** : are everything else—any files in your working directory that were not in your last snapshot and are not in your staging area.
 	 
 	 
-* Staging Area
+* **Staging Area**
 
 	> It is a file, generally in your `Git Directory`, stores information about what will go on your next commit, It's 
 	someetimes referred to as the `Index`
 
-* Git Directory
+* **Git Directory**
 	> It is where git stores the metadata and object database of your project.
-	
-* Let's go on a basic Git workflow :
-	1. You modify files in your working directory
-	2. You add a snapshot for these files in the satging area
-	3. You do a commit, that will take these files and snapshot then store them in the git directory 
 
 
 	
