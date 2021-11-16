@@ -108,46 +108,46 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 
 - **head and HEAD**
 
- There are two types of references for commit/branch:
- 
- > head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for branch.
- 
- > HEAD (CAPITAL LETTERS): is an active / current head, points to commit you are working on.
+    There are two types of references for commit/branch:
+
+	 > head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for branch.
+
+	 > HEAD (CAPITAL LETTERS): is an active / current head, points to commit you are working on.
  
 - **Merge**
 
-The merge have some types, so let’s represent with these visualizations:
+   The merge have some types, so let’s represent with these visualizations:
 
 
-- Non Fast Forward (have two parents)
-	> In case you have new commits added after the last isolation feature branch, in this case you create a new commit representing the two branches, and the HEAD (active/current head) move to refer to this new commit.
+	- Non Fast Forward (have two parents)
+		> In case you have new commits added after the last isolation feature branch, in this case you create a new commit representing the two branches, and the HEAD (active/current head) move to refer to this new commit.
 
- <p align="center">
-<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/nonff.png" width="250" height="250">	
-</p>
-
-
-- Fast Forward (have one parent)
-	> In case you have not any new commits added after the last isolation feature branch, in this case you make the HEAD (active/current head) move to refer to the last commit in the isolation feature branch.
-
- <p align="center">
-<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/ff.png" width="250" height="250">	
-</p>
+	 <p align="center">
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/nonff.png" width="250" height="250">	
+	</p>
 
 
-- Rebase
-	> You will copy/rewrite all the new commits of the feature branch and merge them into the existing branch.
+	- Fast Forward (have one parent)
+		> In case you have not any new commits added after the last isolation feature branch, in this case you make the HEAD (active/current head) move to refer to the last commit in the isolation feature branch.
+
+	 <p align="center">
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/ff.png" width="250" height="250">	
+	</p>
 
 
- <p align="center">
-<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/rebase.png" width="250" height="250">	
-</p>
+	- Rebase
+		> You will copy/rewrite all the new commits of the feature branch and merge them into the existing branch.
 
 
-- Squash
-	> You can represent it as combining all the new added commits in the isolation feature branch into one single commit, then merge this commit to the existing branch.
+	 <p align="center">
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/rebase.png" width="250" height="250">	
+	</p>
 
 
- <p align="center">
-<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/squash.png" width="250" height="250">	
-</p>
+	- Squash
+		> You can represent it as combining all the new added commits in the isolation feature branch into one single commit, then merge this commit to the existing branch.
+
+
+	 <p align="center">
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/squash.png" width="250" height="250">	
+	</p>
