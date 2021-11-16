@@ -102,6 +102,21 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	
 #### :memo: Git Basics Overview 
 
+- **Repository**
+  > It contains all your necessary repository files—a Git repository skeleton.
+
+
+- **Cloning** 
+  > This will create your copy of an existing Git Repository 
+
+
+- **Status**
+  > To determine which files are in which state 
+
+<p align="center">
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/file_state.png" width="250" height="250">	
+</p>
+
 - **Commit** 
   > It’s a group of changes and it has only the changes, each commit points to parent commit(s).
 
