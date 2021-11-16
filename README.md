@@ -78,6 +78,12 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 * Working Directory
 
 	> It is your current local directory that you are working on. It's a signle checkout of one version of the project
+	
+	There are types of states in working directory 
+	
+	> Tracked files : are files that were in the last snapshot; they can be unmodified, modified, or staged. 
+	> Untracked files : are everything else—any files in your working directory that were not in your last snapshot and are not in your staging area.
+	 
 	 
 * Staging Area
 
@@ -99,12 +105,14 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 - **Commit** 
   > It’s a group of changes and it has only the changes, each commit points to parent commit(s).
 
+
 - **Branch**
   > It’s the duplications of all commits as an object, the branch isolate the new commits while keeping pointing to parent      commit(s) before the isolation
 
 <p align="center">
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/branch.png" width="250" height="250">	
 </p>		
+
 
 - **head and HEAD**
 
@@ -113,6 +121,7 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	 > head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for branch.
 
 	 > HEAD (CAPITAL LETTERS): is an active / current head, points to commit you are working on.
+ 
  
 - **Merge**
 
@@ -151,3 +160,5 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	 <p align="center">
 	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/squash.png" width="250" height="250">	
 	</p>
+
+	
