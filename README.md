@@ -81,9 +81,9 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	
 	There are types of states in working directory 
 	
-	  > Tracked files : are files that were in the last snapshot; they can be unmodified, modified, or staged. 
+	 	 > Tracked files : are files that were in the last snapshot; they can be unmodified, modified, or staged. 
 	
-	  > Untracked files : are everything else—any files in your working directory that were not in your last snapshot and are not in your staging area.
+	  	> Untracked files : are everything else—any files in your working directory that were not in your last snapshot and are not in your staging area.
 	 
 	 
 * Staging Area
@@ -115,7 +115,7 @@ smoothly. **`Git has three main states that your files can reside in: committed,
   > To determine which files are in which state 
 
 <p align="center">
-	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/file_state.png" width="250" height="250">	
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/file_state.png" width="500" height="300">	
 </p>
 
 - **Commit** 
