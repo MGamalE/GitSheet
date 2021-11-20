@@ -94,8 +94,25 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 * **Git Directory**
 	> It is where git stores the metadata and object database of your project.
 
+### Git Remote
 
+ We have discussed before, there is a git directory on your device where you store object and metadata for your git, for example:
+	- Staging area
+	- local database (Your local repository)
+	- Remote database (A copy of your remote repository)
 	
+So, for working with any remote repository on any cloud service `ex: Github`, you should create a copy of that remote in your git directory.
+
+	- This copy of remote on your local device, it's working as tracking for the remote on cloud 
+	- As for remote one, it's your upstream
+	
+So, let's recap that scenario how it will work
+	- You have remote upstream repository (Stored on cloud)
+	- You have tracking copy of connected with that upstream remote (Stored on local)
+	- You have local database connected with the tracking copy (Stored on local)
+
+> You can set any name for that copy of tracking remote, the default name is `origin`.
+		
 ### :memo: Git Basics Overview 
 
 - **Repository**
