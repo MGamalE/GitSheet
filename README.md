@@ -103,13 +103,13 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 	
 So, for working with any remote repository on any cloud service `ex: Github`, you should create a copy of that remote in your git directory.
 
-	- This copy of remote on your local device, it's working as tracking for the remote on cloud 
-	- As for remote one, it's your upstream
+   - This copy of remote on your local device, it's working as tracking for the remote on cloud 
+   - As for remote one, it's your upstream
 	
 So, let's recap that scenario how it will work
-	- You have remote upstream repository (Stored on cloud)
-	- You have tracking copy of connected with that upstream remote (Stored on local)
-	- You have local database connected with the tracking copy (Stored on local)
+   - You have remote upstream repository (Stored on cloud)
+   - You have tracking copy of connected with that upstream remote (Stored on local)
+   - You have local database connected with the tracking copy (Stored on local)
 
 > You can set any name for that copy of tracking remote, the default name is `origin`.
 		
