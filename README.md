@@ -107,9 +107,9 @@ So, for working with any remote repository on any cloud service `ex: Github`, yo
    - As for remote one, it's your `upstream`
 	
 So, let's recap that scenario how it will work
-   - You have remote upstream repository (Stored on cloud)
-   - You have tracking copy of connected with that upstream remote (Stored on local)
-   - You have local database connected with the tracking copy (Stored on local)
+   - You have a remote upstream repository (Stored on cloud)
+   - You have a tracking copy connected with that upstream remote (Stored on local)
+   - You have a local database connected with the tracking copy (Stored on local)
 
 > You can set any name for that copy of tracking remote, the default name is `origin`.
 
