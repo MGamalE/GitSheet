@@ -112,6 +112,11 @@ So, let's recap that scenario how it will work
    - You have local database connected with the tracking copy (Stored on local)
 
 > You can set any name for that copy of tracking remote, the default name is `origin`.
+
+ <p align="center">
+	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/upstream.png" width="500" height="500">	
+</p>
+
 		
 ### :memo: Git Basics Overview 
 
