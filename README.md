@@ -94,7 +94,7 @@ smoothly. **`Git has three main states that your files can reside in: committed,
 * **Git Directory**
 	> It is where git stores the metadata and object database of your project.
 
-### Git Remote
+### :cloud: Git Remote
 
  We have discussed before, there is a git directory on your device where you store object and metadata for your git, for example:
 	- Staging area
