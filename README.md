@@ -154,7 +154,7 @@ So, let's recap that scenario how it will work
 
     There are two types of references for commit/branch:
 
-	 > head : is a reference for a commit object, it has a name (branch name , tag name ..), the last commit from each branch represents the head for branch.
+	 > head : is a reference for a commit object, it has a name (branch name , tag name ..), represents the last commit of each branch.
 
 	 > HEAD (CAPITAL LETTERS): is an active / current head, points to commit you are working on.
  
