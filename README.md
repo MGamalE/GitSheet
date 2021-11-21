@@ -112,6 +112,7 @@ So, let's recap that scenario how it will work
    - You have a local database connected with the tracking copy (Stored on local)
 
 > You can set any name for that copy of tracking remote, the default name is `origin`.
+
 > You have to set upstream for each branch on remote to connect with local remote.
 
  <p align="center">
