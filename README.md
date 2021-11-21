@@ -128,7 +128,7 @@ So, let's recap that scenario how it will work
 
 
 - **Cloning** 
-  > This will create your copy of an existing Git Repository 
+  > This will create your copy of an existing Git repository 
 
 
 - **Status**
