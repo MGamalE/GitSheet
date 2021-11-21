@@ -113,7 +113,7 @@ So, let's recap that scenario how it will work
 
 > You can set any name for that copy of tracking remote, the default name is `origin`.
 
-> You have to set upstream for each branch on remote to connect with local remote.
+> You have to set `upstream` for each branch on `remote` to connect with `local remote`.
 
  <p align="center">
 	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/upstream.png" width="500" height="500">	
