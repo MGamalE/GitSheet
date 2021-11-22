@@ -1,5 +1,5 @@
 
-![Git Image](https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/header.png)
+![Git Image](https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/slider.png)
 
 # GitSheet
 This repo demonstrates the playing journey with  **`Git`** commands  :rocket:
