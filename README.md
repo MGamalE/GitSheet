@@ -1,3 +1,6 @@
+
+![Git Image](https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/header.png)
+
 # GitSheet
 This repo demonstrates the playing journey with  **`Git`** commands  :rocket:
 
@@ -11,7 +14,7 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 
 ### - 📅 History
 
- Before we dip into `Git`, we have to discuss an overview and history about version control. 
+ Before we deep div into `Git`, we have to discuss an overview and history about version control. 
 
 * 🗒️ In the 90's, Microsoft introduced VSS (Visual SourceSave).It’s a client/server system. The server stores a database of all project files together with the history of changes for these files
 
