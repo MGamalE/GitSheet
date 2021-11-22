@@ -69,6 +69,12 @@ Git thinks of its data more like a set of snapshots of a miniature filesystem. E
 Everything in Git is check-summed before it is stored and is then referred to by that checksum. This means it’s impossible to change the contents of any file or directory without Git knowing about it.Git stores everything
 in its database not by filename but by the hash value of its contents.
 
+So, the commit created from `trees` and `blobs`:
+
+* Trees represent a directory, blobs represents a file
+
+* Together can represent an entire file system
+
 Git has three main states that your files can reside in:`committed, modified, and staged.`
 
 
