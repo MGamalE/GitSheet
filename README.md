@@ -27,9 +27,9 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 
 There are a bunch of others solutions for source controls, list [here](https://en.wikipedia.org/wiki/List_of_version-control_software)
 
-> In the distributed approach, each developer works directly with their own local repository, and changes are shared between repositories as a separate step.
+> In the `distributed approach`, each developer works directly with their own local repository, and changes are shared between repositories as a separate step.
 
-> In the client-server model, developers use a shared single repository.
+> In the `client-server model`, developers use a shared single repository.
 
 #### 📝 Why is version control important ?
  
