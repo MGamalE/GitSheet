@@ -25,7 +25,7 @@ Here we are sharing with you how to play with git commands :memo:, thoughts, cha
 
 * 🗒️ In the meantime, `Git` was introduced with a powerful merging model, and as a  distributed version control, not like `VSS / SVN`  which working as a client/server system, so no need to be connected to a server.
 
-There are a bunch of others solutions for source controls, listed [here](https://en.wikipedia.org/wiki/List_of_version-control_software)
+There are a bunch of others tools for source controls, listed [here](https://en.wikipedia.org/wiki/List_of_version-control_software)
 
 > In the `distributed approach`, each developer works directly with their own local repository, and changes are shared between repositories as a separate step.
 
