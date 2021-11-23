@@ -74,7 +74,7 @@ in its database not by filename but by the hash value of its contents.
 
 So, the commit created from `trees` and `blobs`:
 
-* Trees represent a directory, blobs represents a file
+* **Trees** represent a directory, **blobs** represents a file
 
 * Together can represent an entire file system
 
