@@ -2,7 +2,7 @@
 <img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/slider.png" width="100%">
 
 # GitSheet
-This repo demonstrates the playing journey with  **`Git`** commands  :rocket:
+This repo demonstrates the playing journey with  **`Git`** :rocket:
 
 
 # Getting Started 
