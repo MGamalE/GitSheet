@@ -119,7 +119,7 @@ Git has three main states that your files can reside in:`committed, modified, an
 So, for working with any remote repository on any cloud service `ex: Github`, you should create a copy of that remote in your git directory.
 
    - This copy of remote on your local device, it's working as `tracking` for the remote on cloud 
-   - As for remote one, it's your `upstream`
+   - As for remote on cloud, it's your `upstream`
 	
 So, let's recap that scenario how it will work
    - You have a remote upstream repository (Stored on cloud)
@@ -179,7 +179,7 @@ So, let's recap that scenario how it will work
 
 
 	- Non Fast Forward (have two parents)
-		> In case you have new commits added after the last isolation feature branch, in this case you create a new commit representing the two branches, and the HEAD (active/current head) move to refer to this new commit.
+		> In case you have added new commits (from master, or any branch you created the new branch from it) after the last isolation feature branch, a new commit will be created which represent the two branches, and the HEAD (active/current head) move to refer to this new commit.
 
 	 <p align="center">
 	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/nonff.png" width="250" height="250">	
@@ -187,7 +187,7 @@ So, let's recap that scenario how it will work
 
 
 	- Fast Forward (have one parent)
-		> In case you have not any new commits added after the last isolation feature branch, in this case you make the HEAD (active/current head) move to refer to the last commit in the isolation feature branch.
+		> In case you haven't added any new commits  (from master, or any branch you created the new branch from it) after the last isolation feature branch, the HEAD (active/current head) move to refer to the last commit in the isolation feature branch.
 
 	 <p align="center">
 	<img src="https://github.com/MohamedGElsharkawy/GitSheet/blob/main/screenshot/ff.png" width="250" height="250">	
@@ -195,7 +195,7 @@ So, let's recap that scenario how it will work
 
 
 	- Rebase
-		> You will copy/rewrite all the new commits of the feature branch and merge them into the existing branch.
+		> You will copy/rewrite all the new commits of the feature branch and merge them into the existing/current branch.
 
 
 	 <p align="center">
@@ -204,7 +204,7 @@ So, let's recap that scenario how it will work
 
 
 	- Squash
-		> You can represent it as combining all the new added commits in the isolation feature branch into one single commit, then merge this commit to the existing branch.
+		> You can represent it as combining all the new added commits in the isolation feature branch into one single commit, then merge this commit to the existing/current branch.
 
 
 	 <p align="center">
